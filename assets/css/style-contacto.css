@@ -1,0 +1,69 @@
+main {
+    padding: 10px;
+    align-items: center;
+}
+.contacto {
+    background-color: #a8a4a1;
+
+}
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+legend {
+    padding: 10px;
+}
+
+.checkbox {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #922B21;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #990044;
+    color: #F4D03F;
+    transform: scale(1.20);
+}
+
+table {
+    margin: 40px 40px;
+    background-color: #e6e3df;
+}
+
+thead {
+    background-color: #574d45;
+    color: #E6E6FA;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

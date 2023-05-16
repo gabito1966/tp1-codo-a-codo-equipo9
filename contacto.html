@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberia Scissors</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <span><img class="logo" src="./assets/img/Logo_barberia.jpg" alt="logo de la barberia Scissors"></span>
+            <div class="titulo">
+                <h1>BARBERIA SCISSORS</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicios.html">Servicios</a> </li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contacto">
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+    
+            <label for="correoelectronico">Correo Electronico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+    
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(xx)xxxx-xxxx">
+    
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+    
+            <fieldset>
+                <legend>¿Como le gustaria que lo contactemos?</legend>
+    
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+    
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                        id="radio-telefono">Teléfono</label>
+    
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
+                        checked>Whatsapp</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>¿En cual horario prefiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+    
+    
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barbería
+                Alura?</label>
+    
+            <input type="submit" value="Enviar Formulario" class="enviar">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08hs-20hs</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>08hs-20hs</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08hs-20hs</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>08hs-20hs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08hs-20hs</td>
+                </tr>
+                <tr>
+                    <td>Sabado</td>
+                    <td>08hs-20hs</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <div>
+            <p class="users">&reg Ezequiel Marquez, Luis Hernan Benitez, Gabriel J García </p>
+            <p class="users">&copy Copyright Barberia Scissors - 2023</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
