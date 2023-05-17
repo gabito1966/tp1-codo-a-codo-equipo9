@@ -10,6 +10,7 @@
     font-weight: bold;
     font-size: 2em;
     text-align: center;
+    text-decoration: underline;
 }
 
 
@@ -36,12 +37,12 @@
     border-color: #DC143C;
 }
 
-.servicios h2 {
+.servicios h3 {
     font-size: 2em;
     font-weight: bold;
 }
 
-.servicios li:hover h2 {
+.servicios li:hover h3 {
     font-size: 2.2em;
     color: #DC143C;
 }

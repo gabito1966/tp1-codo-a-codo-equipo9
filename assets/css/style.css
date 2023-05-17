@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Times New Roman', Times, serif;
 
 }
 
@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .mapa-contenido {
-    width: 980px;
+    width: 70px;
     margin: 0 auto;
 }
 
@@ -167,6 +167,22 @@ nav a:hover {
 }
 
 
+footer {
+    background-image: url(../img/carbon_fibre.png);
+    color: #FFFFFF;
+    min-height: 20%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.users {
+    color: #E6E6FA;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
 
 @media screen and (max-width:480px) {
     h1 {
@@ -189,16 +205,18 @@ nav a:hover {
 
     .lista-diferenciales,
     .imagen-diferenciales,
+    .card
     img {
         width: 100%;
     }
 
-    .productos li, .servicios li {
+    .productos li,
+    .servicios li {
         display: block;
         width: auto;
     }
 
-    
+
     .form {
         width: auto;
     }
@@ -210,22 +228,4 @@ nav a:hover {
     .enviar {
         width: 50%;
     }
-}
-
-
-footer {
-    background-image: url(../img/carbon_fibre.png);
-    color: #FFFFFF;
-    min-height: 20%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.users {
-    color: #E6E6FA;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-    text-align: center;
 }
