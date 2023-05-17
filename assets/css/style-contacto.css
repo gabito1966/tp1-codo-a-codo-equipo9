@@ -3,7 +3,7 @@ main {
     align-items: center;
 }
 .contacto {
-    background-color: #a8a4a1;
+    background: linear-gradient(#888583, #f0ebe9);
 
 }
 form {

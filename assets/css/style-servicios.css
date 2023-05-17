@@ -1,11 +1,22 @@
 
 .servicio{
-    background-color: #a8a4a1;
+    background: linear-gradient(#888583, #f0ebe9);
+    height: 100%;
+    padding: 0;
 }
+
+.titulo-secundario {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+
 .servicios {
-    width: 940px;
+    width: 60%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 5px 5px 5px 5px ;
     background-color:#FDEDEC;
 }
@@ -16,7 +27,6 @@
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -27,21 +37,21 @@
 }
 
 .servicios h2 {
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .servicios li:hover h2 {
-    font-size: 34px;
+    font-size: 2.2em;
     color: #DC143C;
 }
 
 .servicio-descripcion {
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 .servicio-precio {
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: bold;
     margin-top: 10px;
 }
