@@ -78,8 +78,8 @@ nav a:hover {
 .principal {
     padding: 3em 1em;
     background-color: #f0ebe9;
-    width: 940px;
-    margin: 0 auto;
+    width: 100%;
+    
 }
 
 .titulo-principal {
@@ -103,7 +103,7 @@ nav a:hover {
 }
 
 .utensilios {
-    width: 120px;
+    width: 200px;
     float: left;
     margin: 0 20px 20px 0;
 }
@@ -119,7 +119,7 @@ nav a:hover {
 }
 
 .mapa-contenido {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -129,7 +129,7 @@ nav a:hover {
 }
 
 .contenido-diferenciales {
-    width: 640px;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -168,7 +168,6 @@ nav a:hover {
     margin: 1em auto;
 }
 
-
 footer {
     background-image: url(../img/carbon_fibre.png);
     color: #FFFFFF;
@@ -194,28 +193,45 @@ footer {
     nav {
         position: static;
     }
-
+    .logo{
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        padding: 1em;
+    }
+   
     .caja,
-    .principal,
     .mapa-contenido,
-    .contenido-diferenciales,
     .video,
     .producto,
     .servicio {
-        width: auto;
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    .principal{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .contenido-diferenciales {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
     }
 
     .lista-diferenciales,
     .imagen-diferenciales,
     .card {
         
-        width: 100%;
+        width: 90%;
     }
 
-    img {
-        align-items: center;
-        padding: auto;
-        min-width: 80%;
+
+    .diferenciales{
+        width: 90%;
     }
 
     .productos li,
@@ -224,7 +240,17 @@ footer {
         width: 80%;
     }
 
+    .productos li img,
+    .servicios li img {
+        align-items: center;
+        padding: auto;
+        min-width: 100%;
+    }
 
+    .servicio-descripcion,
+    .producto-descripcion{
+        font-size: 1.0em;
+    }
     .form {
         width: auto;
     }
@@ -254,24 +280,29 @@ footer {
     .video,
     .producto,
     .servicio {
-        width: auto;
+        width: 90%;
     }
 
     .lista-diferenciales,
     .imagen-diferenciales,
     .card {
-        width: 100%;
+        width: 90%;
     }
 
-    img {
-        min-width: 80%;
-    }
     .productos li,
     .servicios li {
         display: grid;
-        min-width: 50%;
+        max-width: 100%;
     }
-    .servicio-descripcion{
+
+    .productos li img,
+    .servicios li img {
+        max-width: 80%;
+        align-items: center;
+    }
+
+    .servicio-descripcion,
+    .producto-descripcion{
         font-size: 1.0em;
     }
 

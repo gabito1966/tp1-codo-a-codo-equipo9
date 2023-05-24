@@ -32,17 +32,17 @@
     border-radius: 10px;
 }
 
-.producto li:hover {
+.productos li:hover {
     border-color: #DC143C;
 }
 
 
-.producto h3 {
+.productos h3 {
     font-size: 1.7em;
     font-weight: bold;
 }
 
-.producto li:hover h3 {
+.productos li:hover h3 {
     color: #DC143C;
 }
 
