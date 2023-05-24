@@ -1,6 +1,6 @@
 
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -12,9 +12,11 @@ header {
 .caja {
     color: #FFFFFF;
     width: 90%;
-    height: 15%;
-    position: relative;
+    min-height: 15%;
+    display: grid;
+    grid-template-columns: 0.5fr, 1fr,1.5fr;
     margin: 0 auto;
+    align-items: center;
 }
 .logo {
     width: 200px;
@@ -43,7 +45,7 @@ header {
 nav {
     position: absolute;
     top: 90px;
-    right: 0;
+    right: 5%;
 }
 
 nav li {
@@ -107,7 +109,7 @@ nav a:hover {
 }
 
 .mapa {
-    padding: 3em 0;
+    padding: 5em 0;
     background: linear-gradient(#f0ebe9, #a8a4a1);
 }
 
@@ -117,7 +119,7 @@ nav a:hover {
 }
 
 .mapa-contenido {
-    width: 70px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -184,7 +186,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:575px) {
     h1 {
         text-align: center;
     }
@@ -205,17 +207,73 @@ footer {
 
     .lista-diferenciales,
     .imagen-diferenciales,
-    .card
-    img {
+    .card {
+        
         width: 100%;
+    }
+
+    img {
+        align-items: center;
+        padding: auto;
+        min-width: 80%;
     }
 
     .productos li,
     .servicios li {
         display: block;
+        width: 80%;
+    }
+
+
+    .form {
         width: auto;
     }
 
+    .input-padron {
+        width: 70%;
+    }
+
+    .enviar {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:1100px) {
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .caja,
+    .principal,
+    .mapa-contenido,
+    .contenido-diferenciales,
+    .video,
+    .producto,
+    .servicio {
+        width: auto;
+    }
+
+    .lista-diferenciales,
+    .imagen-diferenciales,
+    .card {
+        width: 100%;
+    }
+
+    img {
+        min-width: 80%;
+    }
+    .productos li,
+    .servicios li {
+        display: grid;
+        min-width: 50%;
+    }
+    .servicio-descripcion{
+        font-size: 1.0em;
+    }
 
     .form {
         width: auto;
